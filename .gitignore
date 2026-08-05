@@ -1,0 +1,30 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+env/
+.conda/
+
+# IDEs
+.vscode/
+.claude/
+.idea/
+
+# Large Files & Data (These stay on Zenodo!)
+*.pt
+*.pth
+*.sdf
+*.csv
+datasets/
+checkpoints/
+outputs/
+results/
+
+# Hide local dev files
+dev_tools/
+my_tree.txt

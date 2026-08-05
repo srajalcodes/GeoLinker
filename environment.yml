@@ -1,0 +1,24 @@
+name: geolinker
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.19
+  - pytorch=2.5.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - rdkit=2025.09.6
+  - biopython=1.86
+  - pip
+  - pip:
+    - numpy==2.0.1
+    - scipy==1.15.3
+    - pandas==2.3.3
+    - networkx==3.4.2
+    - matplotlib==3.10.8
+    - seaborn==0.13.2
+    - tqdm==4.67.3
+    - wandb==0.25.0
