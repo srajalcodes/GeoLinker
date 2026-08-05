@@ -10,7 +10,9 @@ Official implementation of **GeoLinker**, an SE(3)-equivariant diffusion model f
 
 > **Given disconnected molecular fragments in 3D space, GeoLinker generates linker atoms that bridge them into a fully connected molecule. The framework unifies multiple conditioning modes including unconstrained, anchor-guided, size-conditioned, and fully conditioned generation within a single model.**
 
-![Model Architecture](https://raw.githubusercontent.com/bucketio/img8/main/2026/04/25/1777135775057-af40a8f0-6b76-4a68-bf2d-674c43501f89.png)
+<p align="center">
+  <img src="assets/GeoLinker.png" width="850" alt="GeoLinker Architecture">
+</p>
 
 ---
 
