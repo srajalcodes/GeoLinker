@@ -173,23 +173,6 @@ Reported metrics include:
 
 ---
 
-# 📊 Results
-
-### Table 1 — ZINC Test Set
-
-**250 samples per fragment pair (DDIM, 50 diffusion steps)**
-
-| Variant | Validity ↑ | Uniqueness ↑ | Novelty ↑ | QED ↑ | SA ↓ | Rings ↑ |
-|----------|-----------:|-------------:|----------:|------:|-----:|--------:|
-| GeoLinker-Base | 45.5 | 86.4 | 78.7 | 0.50 | 5.14 | 0.34 |
-| GeoLinker-Anchor | 44.1 | 86.4 | 82.1 | 0.49 | 5.04 | 0.57 |
-| GeoLinker-Sized | 45.3 | 88.7 | 81.9 | 0.49 | 5.05 | 0.63 |
-| GeoLinker-Both | 44.8 | 87.5 | 80.8 | 0.49 | 5.02 | 0.54 |
-
-Complete evaluation on **CASF-2016** and **GEOM-Drugs** is reported in the accompanying manuscript.
-
----
-
 # 🧠 Model Architecture
 
 **Backbone**
